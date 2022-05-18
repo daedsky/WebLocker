@@ -74,7 +74,7 @@ class Ui_MainWindow(object):
         # self.deactivate_btn.setStyleSheet("background-color:#ab6161;")
         self.deactivate_btn.setObjectName("deactivate_btn")
         self.porn_banned_until_label = QtWidgets.QLabel(self.adult_content_blocker_tab)
-        self.porn_banned_until_label.setGeometry(QtCore.QRect(70, 260, 231, 41))
+        self.porn_banned_until_label.setGeometry(QtCore.QRect(70, 250, 280, 41))
         font = QtGui.QFont()
         font.setFamily("HoloLens MDL2 Assets")
         font.setBold(True)
@@ -193,7 +193,7 @@ class Ui_MainWindow(object):
         # self.unblock_btn.setStyleSheet("background-color:#ab6161;")
         self.unblock_btn.setObjectName("unblock_btn")
         self.website_banned_until_label = QtWidgets.QLabel(self.website_blocker_tab)
-        self.website_banned_until_label.setGeometry(QtCore.QRect(190, 150, 231, 41))
+        self.website_banned_until_label.setGeometry(QtCore.QRect(190, 140, 231, 41))
         font = QtGui.QFont()
         font.setFamily("HoloLens MDL2 Assets")
         font.setBold(True)
@@ -254,7 +254,7 @@ class Ui_MainWindow(object):
         self.activate_btn.setText(_translate("MainWindow", "Activate "))
         self.deactivate_btn.setText(_translate("MainWindow", "Deactivate"))
         self.porn_banned_until_label.setText(
-            _translate("MainWindow", "Set the date and time to ban adult sites till this date"))
+            _translate("MainWindow", "Set the date and time\nto block adult sites till that date."))
         self.no_more_porn_label.setText(_translate("MainWindow", "Say NO to porn"))
         self.status_label.setText(_translate("MainWindow", "status"))
 
@@ -270,7 +270,7 @@ class Ui_MainWindow(object):
         self.website_url_label.setText(_translate("MainWindow", "Website url:"))
         self.block_btn.setText(_translate("MainWindow", "Block"))
         self.unblock_btn.setText(_translate("MainWindow", "Unblock"))
-        self.website_banned_until_label.setText(_translate("MainWindow", "This site will be blocked until:"))
+        self.website_banned_until_label.setText(_translate("MainWindow", "Set the date and time\nto block this website till that date."))
         self.blocked_unblocked_label.setText(_translate("MainWindow", ""))
         self.website_mm__dd_yyyy.setText(_translate("MainWindow", "mm/dd/yyyy          "))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.website_blocker_tab),
