@@ -579,7 +579,9 @@ escort_sites = ['tsescorts.com', 'escortbabylon.net', 'eroticmonkey.ch', 'ts4ren
 other_domains = ['de.pornhub.com', 'fr.pornhub.com', 'es.pornhub.com', 'it.pornhub.com', 'pt.pornhub.com',
                  'pl.pornhub.com', 'rt.pornhub.com', 'jp.pornhub.com', 'nl.pornhub.com', 'cz.pornhub.com',
                  'cn.pornhub.com', 'xhamster.desi', 'xhamster1.desi', 'blacked.com', 'onlyfans.com', 'modelhub.com',
-                 'smutcam.com', 'manyvids.com', 'pronhub.com']
+                 'smutcam.com', 'manyvids.com', 'pronhub.com', 'xhamster18.desi', 'xlivesex.com', 'onlyindianporn2.com',
+                 'masterdesi.com', 'xnxxgood.com', 'sexyoung.me', 'hdmovie20.com', 'hotasiansex.mobi', 'upornia.com',
+                 'porngo.tube']
 
 all = (escort_sites + porn_search_engines + porn_aggregators + big_tit_porn_sites + voyeur_porn_sites
        + funny_porn_sites + vintage_porn_sites + creampie_porn_sites + blowjob_porn_sites + mature_porn_sites
